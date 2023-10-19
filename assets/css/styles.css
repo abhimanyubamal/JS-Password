@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    padding: 200px 100px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.login-box {
+    padding: 20px 40px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.username-input,
+.password-input {
+    margin-left: 20px;
+}
+
+label {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#show-hide-button {
+    background-color: lightblue;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#show-hide-button:hover {
+    background-color: orangered;
+    color: white;
+}
